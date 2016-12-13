@@ -1,0 +1,65 @@
+body{
+	font-family: sans-serif; background: antiquewhite;
+}
+.form{
+	padding: 5px; margin: auto; background-image: url(background.jpg); width: 500px;
+}
+.head{
+	color: white;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+span{
+	padding: 10px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    display: block;
+    margin: 10px;
+}
+
+span label{
+	font-size: 12px;
+	
+}
+span input{
+	 
+	width: 230px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px;
+    margin: auto;
+    display: block;
+    margin-top: -20px;
+}
+span input[type="radio"] {
+	width: 15px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px;
+	display: -webkit-inline-box;
+	margin-top: -20px;
+	margin: initial;
+}
+button{
+	background: darkblue;
+    border: 1px solid darkblue;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+}
+span textarea{
+	position: absolute;
+    width: 230px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px;
+    margin: auto;
+    display: block;
+    margin-top: -20px;
+    margin-left: 110px;
+}
